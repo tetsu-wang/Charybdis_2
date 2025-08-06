@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: charybdis}
 layers:
   '0': ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, \, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z, X,
     C, V, B, N, M, ',', ., /, RSHIFT, BSPC, '1', LGUI, L CLK, SPACE, R CLK, L CLK, ENTER]
@@ -17,7 +18,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+ PG UP
-  - Ctl+ T
+  - Ctl+Sft+ TAB
   - Ctl+ PG DN
   - VOL UP
   - PG UP
@@ -28,9 +29,9 @@ layers:
   - DEV TOOLS
   - {t: ▽, type: trans}
   - CAPS
-  - Alt+ LEFT
-  - Alt+ TAB
-  - Alt+ RIGHT
+  - Gui+ LEFT
+  - Ctl+ TAB
+  - Gui+ RIGHT
   - VOL DN
   - PG DN
   - LEFT
@@ -41,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ W
+  - {t: ▽, type: trans}
   - PP
   - MUTE
   - {t: ▽, type: trans}
